@@ -1,0 +1,33 @@
+{
+  "name": "amfe-flexible-xuj",
+  "version": "2.2.1",
+  "description": "Build flexible page on mobile platform",
+  "keywords": [
+    "lib",
+    "amfe",
+    "flexible",
+    "mobile",
+    "css",
+    "rem",
+    "vw"
+  ],
+  "homepage": "https://github.com/xjfizz/amfe-flexible-xuj",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xjfizz/amfe-flexible-xuj.git"
+  },
+  "author": [
+    {
+      "name": "xuj",
+      "email": "58769319@qq.com"
+    }
+  ],
+  "scripts": {
+    "compress": "uglifyjs index.js -o index.min.js -c -m"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "uglify-js": "^3.0.27"
+  },
+  "license": "MIT"
+}
